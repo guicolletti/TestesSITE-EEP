@@ -1,0 +1,75 @@
+p {
+    color: red;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+ 
+.botao:hover{
+    background-color: rgb(13, 85, 85);
+    cursor: pointer;
+}
+
+.botao:active{
+    background-color: rgb(4, 56, 56);
+}
+
+li{
+    color: rgb(37, 10, 169);
+}
+
+li:nth-child(2){
+    color: rgb(190, 11, 11);
+}
+
+li:nth-child(3){
+    color: rgb(198, 94, 177);
+}
+
+li:nth-child(4){
+    color: rgb(0, 255, 4);
+}
+
+li:nth-child(5){
+    color: rgb(31, 138, 104);
+}
+
+li:nth-child(6){
+    color: rgb(9, 112, 126);
+}
+
+table{
+    border: 1px;
+    border-collapse: collapse;
+    border-color: black;
+    width: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.dark{
+    color: rgb(58, 58, 58);
+}
+
+.psic {
+    color: rgb(211, 75, 161);
+}
